@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+    
+    }
+    
+    html , body{
+        width: 100%;
+        height: 100%;
+    }
+    #main{
+    
+        width: 100%;
+        height: 100%;
+        background-color: rgb(25, 24, 24);
+        overflow: hidden;
+    
+        }
+        #nav{
+            
+        
+                display: flex;
+                width: 100%;
+                height: 10%;
+                padding:0px 80px;
+                align-items: center;
+                justify-content: space-between;
+                color: #fff;
+                
+              
+              }
+             #nav1 h2{
+              font-weight: 500;
+             }
+              #nav a{
+                padding: 0px 18px;
+                text-decoration: none;
+                color: #fff;
+                font-size: 15px;
+              } 
+              #nav2 {
+                width: 30%;
+                
+              }
+             #nav2 button{
+                display: flex;
+                justify-content: space-between;
+               opacity: .5;
+               padding: 12px 22px;
+                border-radius: 100px;
+                border: 1px solid #fff;
+                color: white;
+                background-color:rgb(25, 24, 24);
+                width: 100%;
+                height: 50%;
+                font-size: 15px;
+                
+                
+            }
+            #nav4{
+              opacity: .5;
+              
+              }
+              #nav4 i{
+                padding-right: 20px;
+              }
+              #text{ 
+                position: relative;
+                color: #fff;
+                position: absolute;
+                top: 45%;
+                left: 50%;
+                transform: translate(-45%, -50%);
+                width: 40%;
+                height: 50%;
+                text-align: center;
+                z-index: 999;
+              }
+
+              #text h1{
+                font-size: 60px;
+                font-weight: 600;
+                
+                align-items: center;
+                justify-content: center;
+               
+                line-height: 1;
+            
+              }
+              #text button{
+              
+
+border-radius: 100px;
+border: 1px solid  rgb(25, 24, 24) ;
+
+
+
+
+
+
+              }
+              button{
+                height: 40px;
+                width: 100px;
+              }
+            button img{
+              object-fit: cover;
+              width: 100%;
+              height: 100%;
+              border-radius: 100px;
+            
+            }
+            button #one img{
+              object-fit: cover;
+              width: 100%;
+              height: 100%;
+              border-radius: 100px;
+            
+            }
+           
+            #one{
+              
+              width: 180px;
+            }
+
+              
+              #text h5{
+                letter-spacing: 2px;
+                margin-bottom: 30px;
+                opacity: .9;
+                font-weight: 300;
+              }
+              #text2{
+                color: #fff;
+                text-align: right;
+                position: absolute;
+                top: 70%;
+                left: 30%;
+                transform: translate(-70%, -30%);
+                width: 15%;
+                height: 25%;
+                font-size: 15px;
+                font-weight: 200;
+                line-height: 20px;
+              }
+              #text3{
+                color: #fff;
+                text-align: left;
+                position: absolute;
+                bottom: 5px;
+                right:15%;
+                transform: translate(0%,-15%);
+                width: 15%;
+                height: 17%;
+                font-size: 15px;
+                font-weight: 200;
+                line-height: 20px;
+              }
+              #prev{
+                position: absolute;
+                top: 50%;
+                left: 3%;
+               }
+               .sidebar a{
+                
+                text-decoration: none;
+                color:black;
+                font-size: 14px;
+                font-weight: 700;
+                display: flex;
+                align-items: center;
+                width: 20px;
+                height: 20px;
+                background-color: white;
+                border-radius: 1000%;
+                justify-content: center;
+
+            
+               }
+               #next{
+                position: absolute;
+                top: 50%;
+                right: 3%;
+               }
+               .sidebar i{
+                font-size: 25px;
+               } 
+             
+              
+              
+                #capsule{
+                  width: 3%;
+                  height: 150px;
+                  border: 1px solid #fff;
+                  border-radius: 1000px;
+                  position: absolute;
+                  top: 50%;
+                  right: 8%;
+                  transform: translate(-50%,-35%);
+                  z-index: 99;
+                }
+                #circle{
+                  width: 50px;
+                  height: 50px;
+                  border: 1px solid #fff;
+                  border-radius: 100%;
+                  position: absolute;
+                  bottom: 30%;
+                  right: 20%;
+                  transform: translate(-30%,-20%);
+                }
+                #circle2{
+                  width: 10px;
+                  height: 10px;
+                  border: 1px solid #fff;
+                  border-radius: 100%;
+                  position: absolute;
+                  top: 40%;
+                  left: 37%;
+                  transform: translate(-40%,-37%);
+                }
+             
+             
+              #image{
+                width: 300px;
+                height: 350px;
+                border-radius: 1000px 1000px 0px 0px;
+                background-color: rgb(203, 198, 198);
+                position: absolute;
+                bottom: 0%;
+                left: 50%;
+                transform: translate(-50% , 0%);
+            overflow: hidden;
+                z-index: 99999;
+              }
+              #image img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+          
+              }
+              #orange{
+                position: relative;
+                position: absolute;
+                top: 55%;
+                left: 37%;
+            
+              border-radius: 100%;
+              background-color:rgb(235, 117, 7) ;
+          
+                width: 60px;
+                height: 60px;
+              }
+              #polygon6{
+              
+            position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+                width: 40px;
+                height: 40px;
+                background-color: white;
+                
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 92%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+              }
+               #overlay{
+                width: 280px;
+                height: 300px;
+                border-radius: 1000px 1000px 0px 0px;
+                background-color:rgba(240, 230, 140, 0.773);
+                mix-blend-mode: difference;
+                position: absolute;
+                bottom: 0%;
+                left: 55%;
+                transform: translate(-55% , 0%);
+               
+            
+               }
+               #center{
+                overflow: hidden;
+              
+               }
+               #capsule2{
+                width: 4%;
+                height: 120px;
+                border: 1px solid #fff;
+                border-radius: 1000px 1000px 0px 0px;
+                position: absolute;
+              bottom: 0%;
+                left:  8%;
+                transform: translate(-8%,-0%);
+                z-index: 99;
+            margin: 0%;
+              }
+              #polygon1{
+                position: absolute;
+                top: 25%;
+                left: 30%;
+                width: 20px;
+                height: 20px;
+                background-color: rgba(252, 190, 74, 0.923);
+                
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 92%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+              }
+            
+
+              #polygon2{
+                position: absolute;
+                top: 50%;
+                left: 35%;
+                width: 15px;
+                height: 15px;
+                background-color: rgb(67, 67, 255);
+                
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 92%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+              }
+            
+
+            
+              #polygon3{
+                position: absolute;
+                top: 20%;
+                left: 70%;
+                width: 15px;
+                height: 15px;
+                background-color: rgb(28, 28, 245);
+                
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 92%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+              }
+            
+
+            
+              #polygon4{
+                position: absolute;
+                top: 35%;
+                left: 70%;
+                width: 20px;
+                height: 20px;
+                background-color: rgba(252, 190, 74, 0.923);
+                
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 92%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+              }
+              #polygon5{
+                position: absolute;
+                top: 3%;
+                left: 12%;
+                width: 10px;
+                height: 10px;
+                background-color: rgba(252, 190, 74, 0.923);
+                
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 92%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+              }
+            
+
+            
+             
+            
+
+            
+             
+                  
